@@ -8,7 +8,7 @@ export default function Resume() {
 
   // Google Drive direct download link
   const resumeDownloadUrl =
-    "https://drive.google.com/file/d/12xWjsn-Db4cURIbdJ8WFht3RQa3Nq2Nb/view?usp=sharing";
+    "https://drive.google.com/file/d/1-c4CRd2Lj7sB6m4rZU7r3VDAC27nd8XJ/view?usp=sharing";
 
   useEffect(() => {
     const observer = new IntersectionObserver(
