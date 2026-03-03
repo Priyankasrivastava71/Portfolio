@@ -44,8 +44,8 @@ export default function Hero() {
 
         {/* Title */}
         <h2 className="text-xl sm:text-2xl md:text-3xl text-muted-foreground font-light mb-8 opacity-0 animate-fade-in-up animation-delay-200">
-          <TypeAnimation sequence={["MERN Stack Developer",2000,
-            "Full Stack Developer",2000
+          <TypeAnimation sequence={[
+            "Full Stack Web Developer",2000
           ]}
           wrapper="span"
           speed={50}
@@ -55,7 +55,7 @@ export default function Hero() {
 
         {/* Description */}
         <p className="text-base md:text-lg text-muted-foreground/80 max-w-2xl mx-auto mb-10 leading-relaxed opacity-0 animate-fade-in-up animation-delay-300">
-          Building modern, responsive web applications using the MERN stack. Focused on creating secure, scalable, and user-centered digital experiences with clean and structured code.
+          Building modern, responsive web applications Focused on creating secure, scalable, and user-centered digital experience with clean and structured code.
         </p>
 
         {/* CTA Buttons */}
