@@ -41,7 +41,7 @@ export default function About() {
           >
             About <span className="text-gradient">Me</span>
           </h2>
-
+         {/* profile */}
           <div className="flex justify-center">
   <div className="w-56 h-56 md:w-64 md:h-64 rounded-full border-4 border-purple-500/40 shadow-[0_0_40px_rgba(168,85,247,0.3)] overflow-hidden">
     <img
