@@ -11,7 +11,7 @@ export default function Hero() {
     document.querySelector("#projects")?.scrollIntoView({ behavior: "smooth" });
   };
 
-  const resumeDownloadUrl = "https://drive.google.com/file/d/1-c4CRd2Lj7sB6m4rZU7r3VDAC27nd8XJ/view?usp=sharing";
+  const resumeDownloadUrl = "https://drive.google.com/file/d/1pil1wGzVWRGs92Rym_tLS9F0m0raVaqD/view?usp=sharing";
 
   return (
     <section
