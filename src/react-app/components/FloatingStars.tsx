@@ -20,7 +20,7 @@ export default function FloatingStars() {
   ];
 
   return (
-    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+    <div className="absolute inset-0 w-full overflow-x-hidden pointer-events-none">
       {stars.map((star, i) => (
         <div
           key={i}

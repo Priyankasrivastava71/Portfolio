@@ -36,7 +36,7 @@ export default function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <div className="w-full px-8 md:px-14 lg:px-24">
+      <div className="w-full px-4 md:px-14 lg:px-24">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a
@@ -49,7 +49,7 @@ export default function Navbar() {
             style={{ fontFamily: "'Space Grotesk', sans-serif" }}
           >
             <span className="text-gradient"></span>
-            <span className="text-muted-foreground font-bold tracking-wide ml-1">Priyanka Srivastava</span>
+            <span className="text-muted-foreground font-bold tracking-wide ml-1 text-sm md:text-base">Priyanka Srivastava</span>
           </a>
 
           {/* Desktop Navigation */}

@@ -16,7 +16,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden"
+      className="relative min-h-screen w-full flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden"
     >
       {/* Floating stars background */}
       <FloatingStars />
@@ -27,7 +27,7 @@ export default function Hero() {
         <div className="absolute bottom-1/3 right-1/4 w-72 h-72 bg-[hsl(280,60%,72%,0.04)] rounded-full blur-3xl" />
       </div>
 
-      <div className="relative z-10 max-w-4xl mx-auto text-center">
+      <div className="relative z-10 w-full max-w-4xl mx-auto text-center px-2">
         {/* Unique Intro */}
         <p className="text-sm md:text-base text-[hsl(270,70%,75%)] font-medium tracking-widest mb-4 opacity-0 animate-fade-in-up">
           Hi I'm 
@@ -35,7 +35,7 @@ export default function Hero() {
 
         {/* Name */}
         <h1
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 opacity-0 animate-fade-in-up animation-delay-100"
+          className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-6 opacity-0 animate-fade-in-up animation-delay-100"
           style={{ fontFamily: "'Space Grotesk', sans-serif" }}
         >
           <span className="text-foreground">Priyanka </span>
@@ -59,7 +59,7 @@ export default function Hero() {
         </p>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 opacity-0 animate-fade-in-up animation-delay-400">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto opacity-0 animate-fade-in-up animation-delay-400">
           <button
             onClick={handleScrollToProjects}
             className="px-8 py-3 bg-[hsl(270,70%,70%)] text-[hsl(270,40%,6%)] font-medium rounded-lg transition-all duration-300 hover:bg-[hsl(270,70%,75%)] hover:shadow-[0_0_20px_hsl(270,70%,70%,0.3)]"
@@ -70,7 +70,7 @@ export default function Hero() {
             href={resumeDownloadUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-3 border border-[hsl(270,70%,70%,0.3)] text-foreground font-medium rounded-lg hover:border-[hsl(270,70%,70%,0.6)] hover:bg-[hsl(270,70%,70%,0.05)] transition-all duration-300"
+            className="inline-flex sm:w-auto items-center gap-2 px-8 py-3 border border-[hsl(270,70%,70%,0.3)] text-foreground font-medium rounded-lg hover:border-[hsl(270,70%,70%,0.6)] hover:bg-[hsl(270,70%,70%,0.05)] transition-all duration-300"
           >
             <Download size={18} />
             Resume
