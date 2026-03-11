@@ -86,7 +86,7 @@ export default function Navbar() {
             isMobileMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
           }`}
         >
-          <div className="py-4 space-y-1 border-t border-[hsl(270,70%,70%,0.1)]">
+          <div className="py-4 space-y-1 border-t border-[hsl(270,70%,70%,0.1)] backdrop-blur-xl bg-[hsl(270,40%,6%)]/70 rounded-xl mt-2">
             {navItems.map((item) => (
               <a
                 key={item.label}
